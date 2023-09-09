@@ -1,0 +1,148 @@
+.width-1 {
+    width: 15rem;
+}
+
+.bg-company-style {
+    background: #56C6BF;
+}
+
+.bg-secondary-light {
+    background: #F0F0F2;
+}
+
+.bg-secondary-ultra-light {
+    background: #EBEBEB;
+}
+
+.text-secondary-central {
+    color: #777777;
+}
+
+.text-secondary-central-light {
+    color: #999999;
+}
+
+.text-company-style {
+    color: #56C6BF;
+}
+
+.right-angle {
+    border-radius: 0;
+}
+
+.border-0 {
+    border: 0;
+}
+
+.btn-company-button {
+    width: auto;
+    box-shadow: 0 .2rem .5rem .2rem rgba(119, 119, 119, .2);
+    background: #56C6BF;
+    text-align: center;
+    font-size: 1rem;
+    transition: .15s;
+}
+
+.btn-company-button:hover {
+    margin-top: -1px;
+    box-shadow: 0 .1rem .3rem .1rem rgba(119, 119, 119, .2);
+    transition: .15s;
+    background: #56C6BF;
+    font-size: .98rem;
+}
+
+.btn-light-button {
+    width: auto;
+    box-shadow: 0 .2rem .5rem .2rem rgba(119, 119, 119, .2);
+    background: #f6f6f6;
+    text-align: center;
+    font-size: 1rem;
+    transition: .15s;
+}
+
+.btn-light-button:hover {
+    margin-top: -1px;
+    box-shadow: 0 .1rem .3rem .1rem rgba(119, 119, 119, .2);
+    transition: .15s;
+    background: #f6f6f6;
+    font-size: .98rem;
+}
+
+.btn-account {
+    width: 15rem;
+    box-shadow: 0 .2rem .5rem .2rem rgba(119, 119, 119, .2);
+    transition: .15s;
+    background: #E3E4E5;
+    text-align: center;
+    font-size: 1rem;
+    color: #56C6BF;
+}
+
+.btn-account:hover {
+    margin-top: -2px;
+    box-shadow: 0 .1rem .5rem .2rem rgba(119, 119, 119, .2);
+    transition: .15s;
+    background: #56C6BF;
+    font-size: .98rem;
+    color: #f6f6f6;
+}
+
+.shadow-1 {
+    box-shadow: 0 0 .6rem .1rem rgba(0, 0, 0, .5);
+}
+
+/*Checking*/
+.wrap {
+    position: relative;
+    margin-top: 100px;
+}
+
+.check-sign {
+    position: absolute;
+    background: #00A89C;
+}
+
+#check-part-1 {
+    width: 10px;
+    height: 2px;
+    transform:rotate(45deg);
+}
+
+#check-part-2 {
+    width: 17px;
+    height: 2px;
+    transform: rotate(-45deg);
+    left: 5px;
+    top: -2px;
+}
+/*End of Checking*/
+
+.shadow-1 {
+    box-shadow: 0 0 .2rem .2rem rgba(119, 119, 119, .2);
+}
+
+.costume-card{
+    width: 100%;
+    background: #F6F6F6;
+    box-shadow: 0.5px 2px 7px rgba(119, 119, 119, 0.5);
+    padding: 20px 20px;
+    font-size: 21px;
+    text-align: center;
+    float: left;
+}
+
+.block {
+  display: block;
+}
+
+.block .image {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.block.object-fit img {
+  max-width: 100%; /* Максимальная ширина картинки */
+  min-height: 100%; /* Минимальная высота картинки */
+  object-fit: cover; /* Всю, выше указанную, облась заполнить картинкой */
+}
