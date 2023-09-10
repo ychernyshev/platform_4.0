@@ -2,4 +2,8 @@
     .media-text-center {
         text-align: center;
     }
+
+    .media-mt-2 {
+        margin-top: 1rem;
+    }
 }

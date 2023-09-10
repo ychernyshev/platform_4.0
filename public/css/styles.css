@@ -26,6 +26,18 @@
     color: #56C6BF;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
 .right-angle {
     border-radius: 0;
 }
@@ -70,7 +82,7 @@
 
 .btn-account {
     width: 15rem;
-    box-shadow: 0 .2rem .5rem .2rem rgba(119, 119, 119, .2);
+    box-shadow: 0 .2rem .2rem .2rem rgba(119, 119, 119, .2);
     transition: .15s;
     background: #E3E4E5;
     text-align: center;
@@ -80,7 +92,7 @@
 
 .btn-account:hover {
     margin-top: -2px;
-    box-shadow: 0 .1rem .5rem .2rem rgba(119, 119, 119, .2);
+    box-shadow: 0 .1rem .4rem .2rem rgba(119, 119, 119, .2);
     transition: .15s;
     background: #56C6BF;
     font-size: .98rem;
@@ -145,4 +157,8 @@
   max-width: 100%; /* Максимальная ширина картинки */
   min-height: 100%; /* Минимальная высота картинки */
   object-fit: cover; /* Всю, выше указанную, облась заполнить картинкой */
+}
+
+.square-type {
+    list-style-type: square;
 }

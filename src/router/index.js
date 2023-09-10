@@ -7,6 +7,31 @@ const routes = [
     component: () => import('../views/www/HomeView.vue')
   },
   {
+    path: '/all_services',
+    name: 'all_services',
+    component: () => import('../views/www/AllServices.vue')
+  },
+  {
+    path: '/knowledge_base',
+    name: 'knowledge_base',
+    component: () => import('../views/www/KnowledgeBase.vue')
+  },
+  {
+    path: '/blogs',
+    name: 'blogs',
+    component: () => import('../views/www/BlogsView.vue')
+  },
+  {
+    path: '/news',
+    name: 'news',
+    component: () => import('../views/www/NewsView.vue')
+  },
+  {
+    path: '/contacts',
+    name: 'contacts',
+    component: () => import('../views/www/ContactsView.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
