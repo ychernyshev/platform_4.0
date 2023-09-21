@@ -24,10 +24,9 @@
                         </strong></small>
                         <hr>
                         <p class="card-text text-secondary-central-light">
-                            <small>Вкажіть діючу електронну адресу, щоб мати можливість отримати зворотній
+                            <small>Зазначте діючу електронну адресу, щоб мати можливість отримати зворотній
                                 зв'язок.</small>
                         </p>
-                        <hr>
                         <label for="name">Ім'я:</label>
                         <input type="text" class="mt-1" name="name" value="" placeholder="наприклад, Сашко">
                         <label for="second_name" class="mt-2">По батькові:</label>
