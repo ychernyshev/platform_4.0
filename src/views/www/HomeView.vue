@@ -75,7 +75,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-6 col-sm-12 col-12 mt-2">
-                        <router-link to="/" class="card-link btn btn-light-button right-angle p-2" style="width: 16rem">
+                        <router-link to="/cooperation/contact-form/" class="card-link btn btn-light-button right-angle p-2" style="width: 16rem">
                             Зв'язатись з відділом продажів
                         </router-link>
                     </div>
@@ -270,7 +270,7 @@
         </div>
         <div class="row mt-4">
             <div class="col-lg-12 col-sm-12 col-12">
-                <router-link to="/" class="btn btn-company-button btn-block text-light right-angle"
+                <router-link to="/cooperation/contact-form/" class="btn btn-company-button btn-block text-light right-angle"
                              style="width: 15rem">
                     Розпочати співпрацю
                 </router-link>

@@ -38,7 +38,12 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/www/AboutView.vue')
-  }
+  },
+  {
+    path: '/cooperation/contact-form/',
+    name: 'cooperation_form',
+    component: () => import('../views/www/CooperationView.vue')
+  },
 ]
 
 const router = createRouter({
